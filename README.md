@@ -72,3 +72,4 @@ Run the application locally
 
 3. Visit application by navigating to [http://localhost:8001](http://localhost:8001)
 
+Test github connect
