@@ -4,10 +4,10 @@ import urlparse
 import tornado.options
 
 os.environ['COOKIE_SECRET'] = os.environ.get("SECRET_TOKEN", "jobviddy")
-os.environ['MONGODB_URL'] = os.environ.get("MONGODB_URI", "ds013320.mlab.com://localhost:27017/apptrack")
+os.environ['MONGODB_URL'] = os.environ.get("MONGODB_URI", "mongodb://heroku_9410zmpb:l8vn2sfrtn2ghde8ihh62ipnmr@ds013320.mlab.com:13320/heroku_9410zmpb")
 os.environ['DB_NAME'] = urlparse.urlsplit(os.environ['heroku_9410zmpb']).path.replace("/","")
-os.environ['ZIGGEO_TOKEN'] = urlparse.urlsplit(os.environ.get("ZIGGEO_URL", "https://token:8aa756d582321d285f82a49d08e8a05d@srvapi.ziggeo.com")).username
-os.environ['FILE_PICKER_KEY'] = os.environ.get("FILEPICKER_API_KEY", "placeholder")
+os.environ['ZIGGEO_TOKEN'] = urlparse.urlsplit(os.environ.get("ZIGGEO_URL", "https://81d506b14ffd940e9ecc1a1a9eed4ce8:dd9963562a4f7b00214121f5d046c9ab@srvapi.ziggeo.com?encryption_key=cb7ce4abdba91c21e4b4b73c3f422faf")).username
+os.environ['FILE_PICKER_KEY'] = os.environ.get("FILEPICKER_API_KEY", "AVbxQsLQ6QTaPuIqPd1kEz")
 os.environ["ADMINS"] = "Andy:placement2011"
 
 
