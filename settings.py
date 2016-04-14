@@ -8,7 +8,7 @@ os.environ['MONGODB_URL'] = os.environ.get("MONGODB_URI", "ds013320.mlab.com://l
 os.environ['DB_NAME'] = urlparse.urlsplit(os.environ['heroku_9410zmpb']).path.replace("/","")
 os.environ['ZIGGEO_TOKEN'] = urlparse.urlsplit(os.environ.get("ZIGGEO_URL", "https://token:8aa756d582321d285f82a49d08e8a05d@srvapi.ziggeo.com")).username
 os.environ['FILE_PICKER_KEY'] = os.environ.get("FILEPICKER_API_KEY", "placeholder")
-os.environ["ADMINS"] = "adminname:adminpassword"
+os.environ["ADMINS"] = "Andy:placement2011"
 
 
 
